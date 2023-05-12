@@ -1,0 +1,38 @@
+.Form {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 1px 1px 2px 2px gray;
+        padding: 30px;
+        width: 370px;
+
+        img {
+            width: 250px;
+            margin-left: 60px;
+        }
+
+        .botao {
+            width: 100%;
+            border-radius:15px; 
+            margin-top: 20px;
+            background-color: white;
+            color:orange;
+            padding: 10px;
+            transition: 0.5s;
+
+            &:hover {
+                background-color: orange;
+                color: white;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+        }
+    }
+
+}
